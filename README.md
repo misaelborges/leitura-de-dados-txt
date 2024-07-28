@@ -8,8 +8,7 @@ Um projeto Java que lê dados de produtos a partir de um arquivo CSV, calcula a 
 - [Instalação](#instalação)
 - [Uso](#uso)
 - [Exemplo de Arquivo](#exemplo-de-arquivo)
-- [Licença](#licença)
-- [Contato](#contato)
+- [Saída Esperada](#saida-esperada)
 
 ## Descrição
 
@@ -64,3 +63,14 @@ Monitor
 HD Case
 ```
 
+## Exception
+
+Caso você passe um valor errado no caminho do arquivo, sera lançado uma exeção generica. Exemplo:
+```plaintext
+C:\Users\User\Desktop\in
+```
+
+Mesagem lançada: 
+```plaintext
+Erro: C:\Users\User\Desktop\in (o sistema não pode encontrar o arquivo especificado)
+```
