@@ -44,7 +44,7 @@ public class Main {
             }
 
         } catch (IOException e) {
-            throw new RuntimeException("");
+            throw new RuntimeException(String.format("Erro: %s (o sistema não pode encontrar o arquivo especificado)", path));
         }
     }
 }
