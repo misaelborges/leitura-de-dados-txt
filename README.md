@@ -1,4 +1,4 @@
-# Produto Análise
+# Leitura de dados txt
 
 Um projeto Java que lê dados de produtos a partir de um arquivo CSV, calcula a média de preços e exibe os nomes dos produtos com preços abaixo da média em ordem decrescente.
 
